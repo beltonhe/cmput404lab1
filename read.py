@@ -13,5 +13,5 @@ res = requests.get(url)
 print(res.text)
 
 
-r = requests.get("https://raw.githubusercontent.com/beltonhe/cmput404lab1/master/AllInOne.py")
+r = requests.get("https://raw.githubusercontent.com/beltonhe/cmput404lab1/master/read.py")
 print(r.text)
