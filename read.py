@@ -14,4 +14,6 @@ print(res.text)
 
 
 r = requests.get("https://raw.githubusercontent.com/beltonhe/cmput404lab1/master/read.py")
-print(r.text)
+f = open("Download.pdf", 'w')
+f.write(r.text)
+f.close()
