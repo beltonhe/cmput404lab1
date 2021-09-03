@@ -4,5 +4,3 @@
 ## on https://stackoverflow.com/questions/20180543/how-to-check-version-of-python-modules
 import requests
 print(requests.__version__)
-with open(__file__) as f:
-    print(f.read())
