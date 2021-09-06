@@ -14,6 +14,7 @@ print(res.text)
 
 
 r = requests.get("https://raw.githubusercontent.com/beltonhe/cmput404lab1/master/read.py")
-f = open("read.py", 'w')
-f.write(r.text)
-f.close()
+print(r.text)
+##f = open("read.txt", 'w')
+##f.write(r.text)
+#f.close()
